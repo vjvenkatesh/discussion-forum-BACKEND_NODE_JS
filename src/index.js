@@ -8,9 +8,8 @@ const app = express();
 app.use(express.json());
 
 // const { verifyAuth } = require("./middlewares/verifyAuth.js");
-
-
 // app.use(verifyAuth);
+
 app.use("/user", routes);
 
 
